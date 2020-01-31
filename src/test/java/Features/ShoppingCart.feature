@@ -14,3 +14,8 @@ Scenario Outline: Login to Automaiton Practice website
   | sunil_osho@yahoo.com | 12345    |
 
 
+  Scenario: Open Contact us page and send a message
+    When I open automationpractice website
+    And I click on Contact us button
+    Then I am landing on my Send a message page
+
